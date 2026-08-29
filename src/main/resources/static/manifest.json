@@ -1,0 +1,16 @@
+{
+  "name": "FinSentinel",
+  "short_name": "FinSentinel",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#10b981",
+  "description": "Multi-Agent AI Finance Controller",
+  "icons": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1024px-GitHub_Invertocat_Logo.svg.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
