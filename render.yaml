@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: finsentinel
+    env: docker
+    plan: free
+    branch: main
+    healthCheckPath: /agents/status
