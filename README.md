@@ -1,5 +1,7 @@
 # FinSentinel - AI Finance Controller 🛡️
 
+**🔴 Live Demo:** [FinSentinel App (Deployed on Render)](https://finsentinal-project.onrender.com/)
+
 FinSentinel is an advanced, Java-native multi-agent Artificial Intelligence system designed to act as an autonomous Finance Controller. Built on a Contract Net Protocol (CNP) architecture, it coordinates multiple specialized AI agents to handle real-time financial reconciliation, anomaly detection, cash flow forecasting, and compliance.
 
 ## ✨ Features
