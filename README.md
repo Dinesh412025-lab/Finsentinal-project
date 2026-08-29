@@ -11,30 +11,20 @@ FinSentinel is an advanced, Java-native multi-agent Artificial Intelligence syst
 - **Voice Briefing**: Daily financial summaries read aloud via Web Speech API.
 - **Firebase Authentication**: Secure role-based access control (includes a Mock Auth mode for easy local testing).
 
-## 🚀 How to Run Locally
+## 🚀 How to Deploy to the Internet (Permanently)
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Dinesh412025-lab/Finsentinal-project.git
-   cd Finsentinal-project
-   ```
+FinSentinel comes pre-configured with a `Dockerfile` and a `render.yaml` Blueprint to allow for seamless 1-click deployment to Render.
 
-2. **Run the Spring Boot Backend**:
-   Ensure you have Java 17+ and Maven installed.
-   ```bash
-   mvn spring-boot:run
-   ```
+1. Go to **[Render.com](https://dashboard.render.com)** and sign up using your GitHub account.
+2. Click **"New +"** in the top right corner and select **"Blueprint"**.
+3. Connect your GitHub account and select this `Finsentinal-project` repository.
+4. Render will automatically read the configuration and deploy your Java Spring Boot server!
+5. Once finished, Render will provide you with a live, permanent public URL (e.g., `https://finsentinel-xxxx.onrender.com`).
 
-3. **Access the App**:
-   Open your web browser and navigate to:
-   👉 **http://localhost:8080**
+*(You can then share this link with anyone!)*
 
 ## 📱 How to Install as an App (PWA)
-FinSentinel is built as a Progressive Web App (PWA). This means you can install it directly to your computer or phone so it runs like a native app!
-1. Open the app in **Google Chrome** or **Microsoft Edge** (`http://localhost:8080`).
-2. Look for the **Install Icon** (a monitor with a downward arrow) in the right side of the address bar.
+Because FinSentinel is built as a Progressive Web App (PWA), anyone visiting your live Render link can install it directly to their computer or phone:
+1. Open your new live Render URL in **Google Chrome** or **Microsoft Edge**.
+2. Look for the **Install Icon** (a monitor with a downward arrow) on the right side of the address bar.
 3. Click **Install**. The app will now appear on your desktop, have its own icon, and run in a standalone window!
-
-## ☁️ Deployment Note
-Because FinSentinel requires a live Java server to run its complex multi-agent AI logic, it cannot be hosted on simple static site hosts like GitHub Pages. 
-To make this link accessible globally to the public, the repository should be deployed to a cloud hosting platform such as **Render**, **Heroku**, or **Google Cloud Run**.
